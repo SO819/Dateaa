@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "205174389071",
+    "firebase_url": "https://d-day-fb970.firebaseio.com",
+    "project_id": "d-day-fb970",
+    "storage_bucket": "d-day-fb970.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205174389071:android:5dd8e3979da76481",
+        "android_client_info": {
+          "package_name": "com.example.dateaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205174389071-cok0pvnhej2kaev8cboatdoni83gcjno.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBprcseyoGJ5KIlK4svuabplk5TSm5l3vA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
