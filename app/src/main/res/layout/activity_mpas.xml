@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Mpas">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="0.5"
+        android:layout_height="match_parent">
+        <fragment
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.google.android.gms.maps.MapFragment" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="추억넣기"
+            android:id="@+id/imbtn1"
+            android:onClick="onClick"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="려차안아"
+
+            android:id="@+id/ededed"
+            android:layout_height="wrap_content"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginRight="80dp"
+            android:layout_alignParentRight="true"
+            android:text="장소검색"
+            android:id="@+id/imbtn124124"
+            android:onClick="onClick"
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:id="@+id/line"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:layout_height="300dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/ED"
+                android:layout_height="100dp" />
+            <Button
+                android:layout_width="20dp"
+                android:onClick="onClick"
+                android:layout_gravity="right"
+                android:text="저장"
+                android:id="@+id/btn3"
+                android:layout_height="20dp" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:onClick="onClick"
+                android:id="@+id/imbtn2"
+                android:src="@drawable/man"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/email_item_layout"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        layout="@layout/popup"/>
+</LinearLayout>

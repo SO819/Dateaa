@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:orientation="horizontal"
+android:layout_height="70dp">
 
+<Button
+    android:id="@+id/btn17"
     android:layout_width="match_parent"
-
+    android:layout_weight="1"
+    android:background="#00ff0000"
+    android:onClick="onClick"
     android:layout_height="match_parent"
 
-    android:orientation="vertical" >
+    />
+<Button
+    android:id="@+id/btn27"
+    android:onClick="onClick"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ff0000"
+    android:layout_weight="1"
 
+    />
+<Button
+    android:id="@+id/btn37"
+    android:onClick="onClick"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ff0000"
+    android:layout_weight="1"
 
+    />
 
-    <Button
-
-        android:id="@+id/camera"
-
-        android:layout_width="fill_parent"
-
-        android:layout_height="wrap_content"
-
-        android:text="카메라"
-
-        />
-
-    <Button
-
-        android:id="@+id/photoAlbum"
-
-        android:layout_width="fill_parent"
-
-        android:layout_height="wrap_content"
-
-        android:text="앨범 "
-
-        />
 
 </LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:orientation="vertical"
+    android:layout_height="150dp"
+    tools:context=".DialogActivity">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="테마"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:background="#94d98f"
+            android:layout_width="match_parent"
+            android:layout_height="53dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="1dp"
+        android:text="간곳"
+        android:onClick="onClick"
+        android:background="#dec9b2"
+        android:layout_height="match_parent"
+        android:id="@+id/btn1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:text="갈곳"
+        android:background="#dec9b2"
+        android:onClick="onClick"
+        android:layout_margin="1dp"
+        android:layout_height="match_parent"
+        android:id="@+id/btn2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:text="기념일"
+        android:layout_margin="1dp"
+        android:onClick="onClick"
+        android:background="#dec9b2"
+        android:layout_height="match_parent"
+        android:id="@+id/btn3"/>
+
+    </LinearLayout>
+
+</LinearLayout>
